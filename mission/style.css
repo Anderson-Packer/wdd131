@@ -1,0 +1,44 @@
+.content {
+    margin: 100px auto;
+    padding: 5% 12%;
+    border: 1px, solid black;
+    line-height: 1.5;
+    font-weight: bold; 
+    width: 625px
+}
+
+h2 {
+    padding: 0px;
+    margin:0px;
+    color: #006EB6;
+    font-size: 110%;
+}
+
+hr {margin: 0px}
+
+h1 {
+    font-size: 260%;
+}
+
+h1, h2 {
+    font-family: "Times New Roman" Times, serif;
+    text-align: center;
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+ol {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+.logo {
+    display: block;
+    margin:0 auto;
+    width: 150px;
+}
+
+li {
+    margin-bottom: 25px;
+}

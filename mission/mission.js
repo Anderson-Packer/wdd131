@@ -1,3 +1,4 @@
+const themeSelector = document.querySelector("#themeSelector")
 const body = document.body;
 const logo = document.querySelector(".logo");
 

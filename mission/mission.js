@@ -1,4 +1,3 @@
-const themeSelector = document.querySelector(".theme");
 const body = document.body;
 const logo = document.querySelector(".logo");
 
@@ -17,7 +16,7 @@ function changeTheme() {
     // remove the dark class
     body.classList.remove("dark");
     // make sure the logo src is the blue logo.
-    logo.src = "byui-logo_blue";
+    logo.src = "byui-logo_blue.webp";
   }
 }
 

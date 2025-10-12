@@ -6,19 +6,20 @@
     <title>Coolpics</title>
     <meta name="author" content="anderson_packer">
     <link rel="stylesheet" href="coolpics.css">
-    <script href="coolpics.js"></script>
 </head>
 <body>
     <header>
         <h1 class="title">Cool Pics 📷</h1>
-        <div class="menu">
-            <h2>Menu</h2>
-            <a href="index.html">Home</a>
-            <a href="index.html">People</a>
-            <a href="index.html">Places</a>
-            <a href="index.html">About</a>
-            <a href="index.html">Contact</a>
-        </div>
+        <button class="button">Menu</button>
+        <nav class="menu">
+            <ul>
+                <li class="hide"><a href="javascript:void(0);">Home</a></li>
+                <li class="hide"><a href="javascript:void(0);">People</a></li>
+                <li class="hide"><a href="javascript:void(0);">Places</a></li>
+                <li class="hide"><a href="javascript:void(0);">About</a></li>
+                <li class="hide"><a href="javascript:void(0);">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <h2 class="work">Current Work</h2>
@@ -52,8 +53,13 @@
             </figure>
         </section>
     </main>
+    <dialog class="image-modal">
+    <img src="" alt="">
+    <button class="close-viewer">X</button>
+    </dialog>
     <footer>
         <p class="copyrite">©2023 Not a real site</p>
     </footer>
+    <script src="coolpics.js"></script>
 </body>
 </html>

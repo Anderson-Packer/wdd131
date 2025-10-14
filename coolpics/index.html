@@ -6,18 +6,19 @@
     <title>Coolpics</title>
     <meta name="author" content="anderson_packer">
     <link rel="stylesheet" href="coolpics.css">
+    <script src="coolpics.js" defer></script>
 </head>
 <body>
     <header>
         <h1 class="title">Cool Pics 📷</h1>
         <button class="button">Menu</button>
-        <nav class="menu">
+        <nav class="menu hide">
             <ul>
-                <li class="hide"><a href="javascript:void(0);">Home</a></li>
-                <li class="hide"><a href="javascript:void(0);">People</a></li>
-                <li class="hide"><a href="javascript:void(0);">Places</a></li>
-                <li class="hide"><a href="javascript:void(0);">About</a></li>
-                <li class="hide"><a href="javascript:void(0);">Contact</a></li>
+                <li><a href="javascript:void(0);">Home</a></li>
+                <li><a href="javascript:void(0);">People</a></li>
+                <li><a href="javascript:void(0);">Places</a></li>
+                <li><a href="javascript:void(0);">About</a></li>
+                <li><a href="javascript:void(0);">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -53,13 +54,11 @@
             </figure>
         </section>
     </main>
-    <dialog class="image-modal">
-    <img src="" alt="">
-    <button class="close-viewer">X</button>
+    <dialog>
+        <img class="modal-img"><button class="close-viewer">X</button>
     </dialog>
     <footer>
         <p class="copyrite">©2023 Not a real site</p>
     </footer>
-    <script src="coolpics.js"></script>
 </body>
 </html>

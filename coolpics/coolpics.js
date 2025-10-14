@@ -16,7 +16,8 @@ gallery.addEventListener('click', (event) => {
   if (!clickedImg) return;
 
   const smallSrc = clickedImg.src;
-  const largeSrc = smallSrc.split('-')[1] + '-full.jpeg';
+  const parts = smallSrc.split('-');
+const largeSrc = parts[0] + '-' + parts[1] + '-full.jpeg';
   
   console.log(largeSrc)
 

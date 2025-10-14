@@ -18,11 +18,15 @@ gallery.addEventListener('click', (event) => {
   const smallSrc = clickedImg.src;
   const largeSrc = smallSrc.split('-')[0] + '-full.jpeg';
   
+  console.log(largeSrc)
+
   modalImg.src = largeSrc;
   modalImg.alt = clickedImg.alt;
 
   modal.showModal();
 });
+
+
 
 closeBtn.addEventListener('click', () => {
   modal.close();

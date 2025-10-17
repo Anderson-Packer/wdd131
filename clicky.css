@@ -1,0 +1,44 @@
+.blue_button {
+    border: none;
+    background: none;
+    font-size: 50px;
+}
+
+.blue_button:hover {
+    background-color: lightgrey;
+}
+
+.red_button:hover {
+    background-color: lightgrey;
+}
+
+.red_button {
+    border: none;
+    background: none;
+    font-size: 50px;
+}
+
+.blue {
+    background-color: #0066ff;
+}
+
+.box.blue {
+    background-color: #0066ff;
+}
+
+.box.red {
+    background-color: red;
+}
+
+.box {
+    height: 40px;
+    width: 80px;
+    background-color: gray;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.hide {
+    display: none;
+}

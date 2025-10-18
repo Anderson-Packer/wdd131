@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Creepster&family=Holtwood+One+SC&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Press+Start+2P&family=Prosto+One&family=Rubik+Wet+Paint&family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    font-family: "lora", impact, serif;
+    padding: 20px;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr 1fr;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+nav li:nth-child(1) {
+  grid-column:2;
+}
+
+nav li:nth-child(2) {
+  grid-column: 3;
+}
+
+nav li:nth-child(3) {
+  grid-column: 4;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #AF1B3F;
+    font-family: "Lora", Impact, serif;
+    font-size: 17px;
+}
+
+.menu {
+    border-top: 2px solid #EFC69B ;
+    border-bottom: 2px solid #EFC69B;
+
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 0px;
+    grid-template-columns: 2fr 1fr;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.first-book, .second-book {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.info {
+    grid-column: 1;
+}
+
+.book {
+    grid-column: 2;
+    margin: 0 auto;
+}
+
+.filters {
+    grid-column: 2;
+}
+
+.first-book {
+    grid-row: 1;
+}
+
+.second-book {
+    grid-row: 2;
+}
+
+main h2 {
+    color: #AF1B3F;
+    font-family: "Lora", Arial, sans-serif;
+    font-size: 25px;
+    padding: 15px 0px 0px 0px;
+}
+
+p {
+    font-size: 16px;
+    padding: 6px
+}
+
+.book-img {
+    display: block;
+    margin-left: 6%;
+    height: 275px;
+    padding: 20px;
+}

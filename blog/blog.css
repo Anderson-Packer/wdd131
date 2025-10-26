@@ -48,15 +48,15 @@ nav a {
 
 main {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 0px;
     grid-template-columns: 2fr 1fr;
+    gap: 20px;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.first-book, .second-book {
+.book-section {
+    grid-column: 1;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 2fr 4fr;
 }
 
 .info {
@@ -72,13 +72,15 @@ main {
     grid-column: 2;
 }
 
-.first-book {
+
+
+/* .first-book {
     grid-row: 1;
 }
 
 .second-book {
     grid-row: 2;
-}
+} */
 
 main h2 {
     color: #AF1B3F;

@@ -11,6 +11,10 @@ body {
   padding: 20px 0;
 }
 
+p {
+    padding: 18px 0;
+}
+
 .front, .back {
 
     height: 250px;

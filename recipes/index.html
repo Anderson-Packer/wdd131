@@ -10,12 +10,18 @@
     <link rel="stylesheet" href="recipes.css">
     <script src="recipes.js" defer></script>
     <script src="recipes.mjs" defer></script>
+    <meta property="og:title" content="RecipeBook">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Good Recipes">
+    <meta property="og:image" content="https://anderson-packer.github.io\wdd131\recipes\images\apple-crisp.jpg">
+    <meta property="og:url" content="https://anderson-packer.github.io/wdd131/recipes/index.html">
+    <meta name="twitter:card" content="">
 </head>
 <body>
     <header>
-    <div class="title">
+    <div class="top">
         <img src="images/recipe-book.png" alt="recipe book" class="logo">
-        <h1 class="">RecipeBook</h1>
+        <h1 class="title">RECIPEBOOK</h1>
     </div>    
     </header>
     <main>
@@ -23,11 +29,31 @@
             <form>
                 <input type="text" placeholder="Find a recipe" id="search" name="search">
             </form>
-            <button>hourglass</button>
+            <button>
+                <img src="images/search.svg" alt="" width="20" height="20">
+            </button>
         </div>
+        <hr>
         <div class="recipe">
             <div class="recipe_img">
                 <img src="images/apple-crisp.jpg" alt="apple crisp"> 
+            </div>
+            <div class="recipe_info">
+                <p class="tags">dessert</p>
+                <h2 class="name">Apple Crisp</h2>
+                <span
+                    class="rating"
+                    role="img"
+                    aria-label="Rating: 4 out of 5 stars">
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star-empty">⭐</span>
+                    <span aria-hidden="true" class="icon-star-empty">☆</span>
+                </span>
+                <p class="description">
+                    This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.
+                </p>
             </div>
         </div>
     </main>

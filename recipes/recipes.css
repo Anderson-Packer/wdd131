@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Creepster&family=Delius&family=Holtwood+One+SC&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Press+Start+2P&family=Prosto+One&family=Rubik+Wet+Paint&family=VT323&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+main {
+    font-family: Arial, Helvetica,sans-serif;
+    margin: 20px 100px 10px 100px
 }
 
 img {
@@ -15,6 +22,7 @@ img {
     display: flex;
     justify-content: right;
     padding-right: 100px;
+    gap: 3px;
 }
 
 .social img {
@@ -24,4 +32,170 @@ img {
 
 .flaticon {
     font-size: 0.6em;
+}
+
+.title {
+    font-size: 60px;
+    letter-spacing: -1px;
+    transform: scaleX(0.8);
+    font-weight: 250;
+    font-family: "Delius", cursive;
+    margin: -5px -40px;
+}
+
+.logo {
+    width: auto;
+    height: 120px;
+}
+
+.top {
+    height: 120px;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;    
+    gap: 0;                    
+    margin: 30px auto 0px auto;
+}
+
+button {
+    background-color: white;
+    width: 30px;
+    border-radius: 0 5px 5px 0;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+#search {
+    width: 80vw;
+    height: 30px;
+    border-width: 2px;
+    border-radius: 5px 0 0 5px;
+}
+
+hr {
+  margin: 20px 40px;
+  border: none;
+  border-top: 2px solid lightgrey;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: row;       
+    border: 2px solid #ccc;    
+    border-radius: 10px;       
+    padding: 20px;             
+    margin: 20px auto;         
+}
+
+.recipe_info {
+    flex: 1;   
+    padding-left: 20px;                
+}
+
+.name {
+    margin-top: 20px;
+    font-family: "Delius", cursive;
+    color: #4A90E2;
+}
+
+.tags {
+    border: solid black 2px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 10px;
+    width: 95px;
+}
+
+.description {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.recipe_img img {
+    width: 480px;              
+    height: auto;
+    border-radius: 8px;         
+}
+
+@media (max-width: 768px) {
+
+    main {
+        margin: 10px 20px;
+    }
+
+    .top {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        gap: 5px;
+    }
+
+    .logo {
+        height: 80px;
+    }
+
+    .title {
+        font-size: 40px;
+        margin: 0;
+        transform: scaleX(0.85);
+    }
+
+    .social {
+        justify-content: center;
+        padding-right: 0;
+        gap: 8px;
+    }
+
+    .social img {
+        width: 35px;
+    }
+
+    #search {
+        width: 90vw;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    button {
+        width: 35px;
+        height: 35px;
+    }
+
+    hr {
+        margin: 15px 20px;
+    }
+
+    .recipe {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .recipe_img img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .recipe_info {
+        padding-left: 0;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .tags {
+        font-size: 16px;
+        width: 80px;
+        padding: 4px 8px;
+    }
 }
